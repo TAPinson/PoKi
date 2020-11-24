@@ -27,3 +27,8 @@
 --JOIN Grade ON Author.GradeId = Grade.Id
 --JOIN Gender ON Author.GenderId = Gender.Id
 --ORDER BY Author.Name, Grade.Name, Gender.Name
+
+
+--7
+--SELECT SUM(Poem.WordCount)
+--FROM Poem
