@@ -37,3 +37,9 @@
 --SELECT TOP 1 Poem.Title, Poem.CharCount
 --FROM Poem
 --ORDER BY Poem.CharCount, Poem.Title
+
+--9 Not 100% sure if this is correct, but I think so
+--SELECT COUNT(Author.GradeId)
+--FROM Author
+--WHERE Author.GradeId = 3
+
