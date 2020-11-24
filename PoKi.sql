@@ -20,3 +20,10 @@
 --FROM Author
 --JOIN Grade ON Author.GradeId = Grade.Id
 --ORDER BY Author.Name, Grade.Name
+
+--6
+--SELECT TOP 76 Author.Name, Grade.Name AS GradeName, Gender.Name AS GenderName
+--FROM Author
+--JOIN Grade ON Author.GradeId = Grade.Id
+--JOIN Gender ON Author.GenderId = Gender.Id
+--ORDER BY Author.Name, Grade.Name, Gender.Name
