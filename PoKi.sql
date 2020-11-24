@@ -32,3 +32,8 @@
 --7
 --SELECT SUM(Poem.WordCount)
 --FROM Poem
+
+--8
+--SELECT TOP 1 Poem.Title, Poem.CharCount
+--FROM Poem
+--ORDER BY Poem.CharCount, Poem.Title
