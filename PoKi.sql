@@ -16,3 +16,7 @@
 --ORDER BY Author.Name
 
 --5
+--SELECT TOP 76 Author.Name, Grade.Name
+--FROM Author
+--JOIN Grade ON Author.GradeId = Grade.Id
+--ORDER BY Author.Name, Grade.Name
