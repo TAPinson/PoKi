@@ -55,3 +55,11 @@
 --FROM Poem
 --JOIN Author ON Author.Id = Poem.AuthorId
 --WHERE Author.GradeId = 4
+
+--12 How many poems are there per grade?
+--SELECT Grade.Id, COUNT(Author.GradeId) AS numOfAuthors, COUNT(Poem.AuthorId) AS numOfPoems
+--FROM Grade
+--JOIN Author ON Author.GradeId = Grade.Id
+--JOIN Poem on Poem.AuthorId = Author.Id
+--GROUP BY Grade.Id, Author.GradeId
+--ORDER BY Id
