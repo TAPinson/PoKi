@@ -43,3 +43,9 @@
 --FROM Author
 --WHERE Author.GradeId = 3
 
+--10
+--SELECT GradeId, COUNT(GradeId) AS Authors
+--FROM Author
+--WHERE GradeId = 1 OR GradeId = 2 OR GradeId = 3
+--GROUP BY GradeId
+--ORDER BY GradeId
